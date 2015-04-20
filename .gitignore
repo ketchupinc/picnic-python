@@ -1,0 +1,10 @@
+/.venv
+/build
+/dist
+/MANIFEST
+/*.egg-info
+*.pyc
+*.egg
+*.class
+*.swp
+
