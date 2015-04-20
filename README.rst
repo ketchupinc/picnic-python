@@ -1,7 +1,7 @@
 Official Picnic API client library for Python
 =============================================
 
-A Python library for Picnic's API. Only Python 3 is supported.
+A Python library for Picnic's API. Python 2.7.9 and 3.4.3 (and above) are supported.
 
 Setup
 -----

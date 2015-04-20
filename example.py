@@ -1,6 +1,6 @@
 import picnic
 
-picnic.api_key = 'acjm597c5h3aoicaj08aAECJ8ct3h'
+picnic.api_key = 'YOUR_API_KEY_HERE'
 
 websites = picnic.list_websites()
 print("Websites: {}".format(websites))

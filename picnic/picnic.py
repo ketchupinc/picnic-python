@@ -1,4 +1,4 @@
-from picnic import api_base, util
+from . import api_base, util
 import requests
 
 DOMAIN_NAME_ERROR = "domain_name must be a string representing a domain name, e.g. 'example.com'"
@@ -12,7 +12,7 @@ class Requestor(object):
         if self.api_key:
             the_key = self.api_key
         else:
-            from picnic import api_key
+            from . import api_key
             the_key = api_key
 
         if the_key is None:
